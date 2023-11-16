@@ -111,7 +111,7 @@ public class WeChatRegisterController {
     }
 
     /**
-     * 注册普通用户
+     * 注册普通用户.
      */
     @PostMapping("/normal")
     @NoAuthentication
