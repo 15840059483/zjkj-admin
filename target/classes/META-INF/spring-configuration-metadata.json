@@ -1,0 +1,86 @@
+{
+  "groups": [
+    {
+      "name": "qiniu",
+      "type": "com.jeebase.system.config.QiNiuProperties",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "rsa.encrypt",
+      "type": "com.jeebase.system.config.SecretKeyConfig",
+      "sourceType": "com.jeebase.system.config.SecretKeyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "qiniu.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "qiniu.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "qiniu.base-url-private",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "qiniu.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "qiniu.bucket-private",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "qiniu.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "qiniu.upload-dir-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "qiniu.zone",
+      "type": "java.lang.String",
+      "description": "七牛机房 华东：zone0 华北：zone1 华南：zone2 北美：zoneNa0",
+      "sourceType": "com.jeebase.system.config.QiNiuProperties"
+    },
+    {
+      "name": "rsa.encrypt.charset",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.SecretKeyConfig",
+      "defaultValue": "UTF-8"
+    },
+    {
+      "name": "rsa.encrypt.open",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.jeebase.system.config.SecretKeyConfig",
+      "defaultValue": true
+    },
+    {
+      "name": "rsa.encrypt.private-key",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.SecretKeyConfig"
+    },
+    {
+      "name": "rsa.encrypt.public-key",
+      "type": "java.lang.String",
+      "sourceType": "com.jeebase.system.config.SecretKeyConfig"
+    },
+    {
+      "name": "rsa.encrypt.show-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.jeebase.system.config.SecretKeyConfig",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}
