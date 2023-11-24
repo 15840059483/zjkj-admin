@@ -84,7 +84,7 @@ spring:
       datasource:
         #主库数据源
         master:
-          url: jdbc:oracle:thin:@192.168.0.103/orcl
+          url: jdbc:oracle:thin:@192.168.0.102/orcl
           username: zjweb
           password: Zjkj@0413.
           driver-class-name: oracle.jdbc.driver.OracleDriver

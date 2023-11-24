@@ -1,5 +1,6 @@
 package com.jeebase.system.common.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.jeebase.common.annotation.auth.NoAuthentication;
 import com.jeebase.common.annotation.log.AroundLog;
@@ -9,6 +10,7 @@ import com.jeebase.system.common.dto.DictInfo;
 import com.jeebase.system.common.dto.UpdateDict;
 import com.jeebase.system.common.entity.Dict;
 import com.jeebase.system.common.service.IDictService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.apache.shiro.authz.annotation.RequiresRoles;
@@ -28,6 +30,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/common/dict")
+@Api(tags = "字典相关功能")
 public class DictController {
 
     @Autowired
@@ -56,6 +59,15 @@ public class DictController {
     @ApiOperation(value = "添加字典")
     @AroundLog(name = "添加字典")
     public Result<Dict> create(@RequestBody CreateDict org) {
+        String dictName = org.getDictName();
+        Long parentId = org.getParentId(); //字典类型
+        LambdaQueryWrapper<Dict> lqw = new LambdaQueryWrapper<>();
+        lqw.eq(Dict::getDictName,dictName);
+        lqw.eq(Dict::getParentId,parentId);
+        List<Dict> list = dictService.list(lqw);
+        if (list.size() > 0){
+            return new Result<Dict>().error("字典名重复，请勿重复添加");
+        }
         Dict orgEntity = new Dict();
         BeanCopier.create(CreateDict.class, Dict.class, false).copy(org, orgEntity, null);
         boolean result = dictService.save(orgEntity);
@@ -74,6 +86,15 @@ public class DictController {
     @ApiOperation(value = "更新字典")
     @AroundLog(name = "更新字典")
     public Result<Dict> update(@RequestBody UpdateDict org) {
+        String dictName = org.getDictName();
+        Long parentId = org.getParentId(); //字典类型
+        LambdaQueryWrapper<Dict> lqw = new LambdaQueryWrapper<>();
+        lqw.eq(Dict::getDictName,dictName);
+        lqw.eq(Dict::getParentId,parentId);
+        List<Dict> list = dictService.list(lqw);
+        if (list.size() > 0){
+            return new Result<Dict>().error("字典名重复，请勿重复添加");
+        }
         Dict orgEntity = new Dict();
         BeanCopier.create(UpdateDict.class, Dict.class, false).copy(org, orgEntity, null);
         boolean result = dictService.updateById(orgEntity);

@@ -86,7 +86,7 @@ spring:
       datasource:
         #主库数据源
         master:
-          url: jdbc:oracle:thin:@192.168.0.103:1521:xe
+          url: jdbc:oracle:thin:@192.168.0.102:1521:xe
           username: zjweb
           password: Zjkj0413
           driver-class-name: oracle.jdbc.driver.OracleDriver
@@ -117,6 +117,7 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: false
     jdbc-type-for-null: 'null' #注意：单引号
+
 j2cache:
   config-location: classpath:config/j2cache.properties
   open-spring-cache: true

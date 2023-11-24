@@ -143,12 +143,11 @@ public class WeChatRegisterController {
             return new Result<>().put(token).success("注册成功");
         } else {
             return new Result<>().error("注册失败，请重试");
-        } 
+        }
     }
     public static void main(String[] args) {
     	Algorithm algorithm = Algorithm.HMAC256("17824932052" + "$2a$10$jLO65RPB3aILhmfnYSU9a.Q78aPby0Dy6XglKMNqUW8UrHdv8Ci4i");
         JWTVerifier verifier = JWT.require(algorithm).withClaim("useraccount", "17824932052").build();
         verifier.verify("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjI2OTE5MDUsInVzZXJhY2NvdW50IjoiMTc4MjQ5MzIwNTIifQ.L5EaD65z3mt_PFHRuXkitx0LcW4givRlQus94WtH2U4");
-        
 	}
 }

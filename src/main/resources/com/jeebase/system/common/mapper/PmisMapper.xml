@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jeebase.system.webchat.mapper.PmisMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jeebase.system.webchat.entity.Pmis">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="pmp" property="pmp" />
+        <result column="plc" property="plc" />
+        <result column="begin_date" property="beginDate" />
+        <result column="end_date" property="endDate" />
+        <result column="description" property="description" />
+        <result column="create_time" property="createTime" />
+        <result column="creator" property="creator" />
+        <result column="update_time" property="updateTime" />
+        <result column="operator" property="operator" />
+        <result column="del_flag" property="delFlag" />
+        <result column="pdm" property="pdm" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, pmp, plc, begin_date, end_date, description, create_time, creator, update_time, operator, del_flag, pdm
+    </sql>
+
+    <!-- 分页查询操作项目 -->
+    <select id="selectPmisList" resultType="com.jeebase.system.webchat.entity.Pmis" parameterType="com.jeebase.system.webchat.entity.Pmis">
+        SELECT
+        id,
+        name,
+        pmp,
+        plc,
+        create_time,
+        begin_date,
+        end_date,
+        creator,
+        description
+        FROM t_sys_pmis
+        WHERE del_flag = 0
+        <trim prefix="AND (" suffix=")" prefixOverrides="AND">
+            <if test="pmis.name != null and pmis.name != ''">
+                AND name like concat(concat('%', #{pmis.name}), '%')
+            </if>
+            <if test="pmis.pmp != null and pmis.pmp != ''">
+                AND pmp like concat(concat('%', #{pmis.pmp}), '%')
+            </if>
+            <if test="pmis.beginDate != null">
+                AND create_time &gt;= #{pmis.beginDate}
+            </if>
+            <if test="pmis.endDate != null">
+                AND create_time &lt;= #{pmis.endDate}
+            </if>
+        </trim>
+        ORDER BY create_time
+    </select>
+    <!--查询项目id，name-->
+    <select id="selectPmis" resultType="com.jeebase.system.webchat.entity.Pmis" parameterType="com.jeebase.system.webchat.entity.Pmis">
+        SELECT
+        id,
+        name
+        FROM t_sys_pmis
+        WHERE del_flag = 0
+        ORDER BY create_time
+    </select>
+
+</mapper>
