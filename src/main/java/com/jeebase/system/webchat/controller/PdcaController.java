@@ -55,11 +55,6 @@ public class PdcaController {
 //     * 查询全部
 //     * @return
 //     */
-//    @PostMapping("/test")
-////    @ApiOperation("查询全部单独接口")  //
-//    public Result<List<Pdca>> getAll (){
-//        List<Pdca> list = pdcaService.list();
-//        return new Result().put(list).success("成功了");
 //    }
     /**
      * 添加数据
@@ -73,6 +68,11 @@ public class PdcaController {
         String pmisName = pdca.getPmisName();// TODO 根据项目名称，从项目表取出项目id
         LambdaQueryWrapper<Pmis> pmislqw = new LambdaQueryWrapper<>();
         pmislqw.eq(Pmis::getName,pmisName);
+//    @PostMapping("/test")
+////    @ApiOperation("查询全部单独接口")  //
+//    public Result<List<Pdca>> getAll (){
+//        List<Pdca> list = pdcaService.list();
+//        return new Result().put(list).success("成功了");
         Pmis pmis = pmisService.getOne(pmislqw);
         Long pmisId = pmis.getId();  //项目id
 
