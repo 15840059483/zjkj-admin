@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b82956-a029-44b5-9028-2dece7341c85" name="Default Changelist" comment="开始测试2">
+    <list default="true" id="c2b82956-a029-44b5-9028-2dece7341c85" name="Default Changelist" comment="电流2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeebase/system/webchat/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeebase/system/webchat/controller/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +98,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -731,7 +733,7 @@
       <workItem from="1700630448743" duration="12926000" />
       <workItem from="1700701438876" duration="23782000" />
       <workItem from="1700786718000" duration="628000" />
-      <workItem from="1702274259482" duration="2013000" />
+      <workItem from="1702274259482" duration="3572000" />
     </task>
     <task id="LOCAL-00001" summary="测试代码上传是否成功">
       <created>1700139346685</created>
@@ -754,7 +756,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702275178233</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="电流1">
+      <created>1702278163469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702278163469</updated>
+    </task>
+    <task id="LOCAL-00005" summary="电流2">
+      <created>1702278183140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702278183140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -874,7 +890,9 @@
     <MESSAGE value="测试代码上传是否成功" />
     <MESSAGE value="开始测试1" />
     <MESSAGE value="开始测试2" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始测试2" />
+    <MESSAGE value="电流1" />
+    <MESSAGE value="电流2" />
+    <option name="LAST_COMMIT_MESSAGE" value="电流2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
