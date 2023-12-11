@@ -4,260 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b82956-a029-44b5-9028-2dece7341c85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeebase/system/webchat/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeebase/system/webchat/controller/PdcaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeebase/system/webchat/controller/PdcaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/SpringbootApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/annotation/RsaSecurity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/aspect/DataFilterAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/aspect/SystemLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/aspect/SystemRsaAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/component/MyMetaObjectHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/component/SQLAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/controller/BaiduAIController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/controller/DictController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/controller/DistrictController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/controller/LogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/controller/QiNiuYunController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/AccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/AttentionUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/AttentionUserList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/CumulateUserList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/GetRegTimeRange$Schemaqueues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/GetRegTimeRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/JsapiTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/LineUpWeChatMsg$MsgMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/LineUpWeChatMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/MsgSendRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/MsgSendResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/MsgTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/MsgTemplateList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/MyAliPayConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/MyWxPayConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/MyWxPayConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/QueryOpenIdResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/SnsUserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/SummaryUserList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/SummaryUserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/UserInfoRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/UserInfoWithCredentials.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/UserListInfoRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/UserListInfoResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/WXPayConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/WechatCumulateUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/WechatSummaryUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/domain/WechatUserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/CreateDict.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/CreateHospDept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/CreateHospDoctor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/CreateZjkjListEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/DictInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/ExamImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamImageList$DataList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamImageList$GIExamImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamImageList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamList_Patient$ExamInfoList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamList_Patient$GIExamList_Patient_ExamInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamList_Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamReport$GIExamReport_Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamReport$Report.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/GIExamReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/LogInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/MedicalRecordResult$Resultset.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/MedicalRecordResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/QueryLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/RegDocJson$RegDoc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/RegDocJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/UpdateDict.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/UpdateHospDept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/UpdateHospDoctor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/dto/WeiXinJsUrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/entity/Dict.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/entity/District.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/entity/ImgIDCardInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/entity/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/entity/WeChatPlaceOrderResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/mapper/DictMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/mapper/DictMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/mapper/DistrictMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/mapper/DistrictMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/mapper/LogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/mapper/LogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/mapper/PdcaMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/mapper/PmisMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/IAlApiService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/IAlTokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/IDictService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/IDistrictService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/ILogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/ISmsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/IWechatApiService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/IWechatAppService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/IWechatTokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/DictServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/DistrictServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/IAlApiServiceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/IAlTokenServiceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/LogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/SmsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/WechatApiServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/WechatAppServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/service/impl/WechatTokenServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/AliPayUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/Base64Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/ChineseAndEngLishUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/GzipUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/Make2DBarCodeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/NetServiceUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/RSAUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/TimeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/WeChatUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/WeiXinSign.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/common/util/Xml2JsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/BootControllerAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/FastjsonConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/FileUploadConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/GetWebChatToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/MInioConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/MinioBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/QiNiuProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/RestTemplateConfiguration$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/RestTemplateConfiguration$WxMappingJackson2HttpMessageConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/RestTemplateConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/ScanNoAuthenticationMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/SecretKeyConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/SpringContextBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/TransactionalConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/WebSocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/config/XxlJobConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/controller/OrganizationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/controller/ResourceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/controller/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/CreateOrganization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/CreateResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/CreateRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/CreateUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/LoginUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/PwdUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/QueryUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/RegisterUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/SmsDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/UpdateDataPermission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/UpdateNoticeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/UpdateOrganization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/UpdateResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/UpdateRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/UpdateRoleResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/UpdateUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/dto/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/DataPermission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/Organization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/OrganizationRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/OrganizationUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/Resource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/RoleResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/entity/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/DataPermissionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/DataPermissionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/HomePageMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/OrganizationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/OrganizationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/OrganizationRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/OrganizationRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/OrganizationUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/OrganizationUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/ResourceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/ResourceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/RoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/RoleResourceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/RoleResourceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/UserRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/mapper/UserRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IDataPermissionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IOrganizationRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IOrganizationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IOrganizationUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IResourceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IRoleResourceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IUserRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/DataPermissionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/OrganizationRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/OrganizationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/OrganizationUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/ResourceServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/RoleResourceServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/RoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/security/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/shiro/CurrentUserMethodArgumentResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/shiro/FastJsonHttpMessageConverterEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/shiro/JWTFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/shiro/JWTToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/shiro/ShiroConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/shiro/ShiroUserFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/shiro/UserRealm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/shiro/WebMvcConfigurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/controller/PdcaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/controller/PmisController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/controller/WeChatLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/controller/WeChatRegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/CreateNormalUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/CreateWechatMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/RetrievePassword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/TicketInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/TokenUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/UpdateMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/UpdateMobile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/UpdatePassword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/WeChatSms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/dto/WebChatLoginUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/entity/Pdca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/entity/PdcaNo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/entity/Pmis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/entity/Wechat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/entity/WechatMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/mapper/PdcaMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/mapper/PmisMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/mapper/WechatMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/mapper/WechatMemberMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/DeptInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/IWechatMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/IWechatService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/PaymentReminderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/PdcaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/PmisService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/imp/DeptInfoServiceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/imp/PdcaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/imp/PmisServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/imp/WechatMemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jeebase/system/webchat/service/imp/WechatServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/constant.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/ehcache.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/j2cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/network.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jeebase/test/CodeGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jeebase/test/CodeGenerator$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jeebase/test/CodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jeebase/test/Type.class" beforeDir="false" />
-    </list>
+    <list default="true" id="c2b82956-a029-44b5-9028-2dece7341c85" name="Default Changelist" comment="开始测试1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -982,7 +729,7 @@
       <workItem from="1700630448743" duration="12926000" />
       <workItem from="1700701438876" duration="23782000" />
       <workItem from="1700786718000" duration="628000" />
-      <workItem from="1702274259482" duration="305000" />
+      <workItem from="1702274259482" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="测试代码上传是否成功">
       <created>1700139346685</created>
@@ -991,7 +738,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700139346685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="开始测试1">
+      <created>1702274662266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702274662266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1109,7 +863,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试代码上传是否成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试代码上传是否成功" />
+    <MESSAGE value="开始测试1" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始测试1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
